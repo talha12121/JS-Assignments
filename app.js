@@ -205,7 +205,7 @@
 //  document.write(fahrenheit +"F "+ " is " + result+"C" +"<br>");
 
 // question no 7
-var shopName = "Shopping Cart"
+// var shopName = "Shopping Cart"
 // document.write("<h1>" + shopName + "</h1>" );
 
 
@@ -288,11 +288,71 @@ var shopName = "Shopping Cart"
 // document.write("Amount of Sanck Per Day is" + " " + amountOfSnack + "<br>");
 // document.write("You Will Need"+" " + result + " " + favouriteSnack + " " + "To Last You The Ripe Old Age Of" + " " + maximumAge + "<br>");
 
+                                    //  chapter no 6-9
+                                    //  chapter no 6-9
+                                    //  chapter no 6-9
+
+// question no 1
+
+// var a = 10
+// document.write("Result" + "<br>");
+// document.write("The value of a is" + " " + a + "<br>") ;
+// document.write(".............................." + "<br>") ;
+// document.write("The value of ++a is" + " " + ++a + "<br>") ;
+// document.write("The value of a is" + " " + a + "<br>") ;
+// document.write("<br>") ;
+// document.write("The value of a++ is" + " " + a++ + "<br>") ;
+// document.write("The value of a is" + " " + a + "<br>") ;
+// document.write("<br>") ;
+// document.write("The value of --a is" + " " + --a + "<br>") ;
+// document.write("The value of a is" + " " + a + "<br>") ;
+// document.write("<br>") ;
+// document.write("The value of a-- is" + " " + a-- + "<br>") ;
+// document.write("The value of a is" + " " + a + "<br>") ;
 
 
+// question no 2
 
+// var a = 1
+// var b = 2
+// var result = --a - --b + ++b + b--
+//              0   - 1   + 2   + 2 = 3 
+// document.write("a is" + " " + "1" + "<br>");
+// document.write("b is" + " " + "2" + " " + "<br>");
+// document.write("Result is" + " " + result + " " + "<br>");
 
+// question no 3
 
+// var userName = prompt("Enter Your Name" ,"Talha")
+// document.write("Hello" + " " + userName);
 
+// question no 4
+
+// var num = +prompt("Enter Number", "5")
+// for(i=1;i<+10;i++){
+//     document.write(num + "x" + i + "=" + i*num + "<br>");
+// }
+
+// question no 5
+
+// var sub1 = prompt("Enter Subject Name");
+// var sub2 = prompt("Enter Subject Name");
+// var sub3 = prompt("Enter Subject Name");
+// var totalMarks = 300
+// var marks1 = +prompt("Enter" + sub1 + " " + "Marks" );
+// var marks2 = +prompt("Enter" + sub2 + " " + "Marks" );
+// var marks3 = +prompt("Enter" + sub3 + " " + "Marks" );
+// var obtMarks = marks1 + marks2 + marks3
+// var percentage = (obtMarks/totalMarks)*100
+
+// document.write(sub1 + "<br>");
+// document.write(sub2 + "<br>");
+// document.write(sub3 + "<br>");
+// document.write(marks1 + "<br>");
+// document.write(marks2 + "<br>");
+// document.write(marks3 + "<br>");
+// document.write("Total Marks is" +totalMarks +"<br>");
+// document.write("obtained marks is"+ obtMarks +"<br>");
+// document.write("percentage is"+ percentage );
 
 
