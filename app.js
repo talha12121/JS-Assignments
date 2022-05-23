@@ -329,7 +329,7 @@
 // question no 4
 
 // var num = +prompt("Enter Number", "5")
-// for(i=1;i<+10;i++){
+// for(i=1;i<=10;i++){
 //     document.write(num + "x" + i + "=" + i*num + "<br>");
 // }
 
@@ -351,8 +351,8 @@
 // document.write(marks1 + "<br>");
 // document.write(marks2 + "<br>");
 // document.write(marks3 + "<br>");
-// document.write("Total Marks is" +totalMarks +"<br>");
-// document.write("obtained marks is"+ obtMarks +"<br>");
-// document.write("percentage is"+ percentage );
+// document.write("Total Marks is " + totalMarks +"<br>");
+// document.write("obtained marks is " + obtMarks +"<br>");
+// document.write("percentage is " + percentage );
 
 
