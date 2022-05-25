@@ -356,3 +356,224 @@
 // document.write("percentage is " + percentage );
 
 
+            // chapter 9 to 11
+            // chapter 9 to 11
+            // chapter 9 to 11
+
+//  question no 1
+
+// var city = prompt("Enter City Name");
+// if(city === "karachi"){
+//     alert("Welcome to city of Lights")    
+// }
+// else{
+//     alert("Good Bye");
+// }
+
+
+// question no 2
+
+// var gender = prompt("Enter Your Gender Male/Female");
+// if(gender === "male"){
+//     alert("Good Night Sir");
+// }
+// else if(gender === "female"){
+//     alert("Good Night Mam");
+// }
+// else{
+//     alert("Enter an appropriate Gender")
+// }
+
+// question no 3
+
+// var trafficSignal = prompt("Give Traffic color");
+// if(trafficSignal === "red"){
+//     alert("Must Stop");
+// }
+// else if(trafficSignal === "yellow"){
+//     alert("Ready To Move");
+// }
+// else if(trafficSignal === "green"){
+//     alert("Move Now");
+// }else{
+//     alert("Enter Signal Color red/yellow/green");
+// }
+
+// question no 4
+
+// var remainingFuel = +prompt("Write Remaining Fuel In Car?");
+// if(remainingFuel <= 0.25){
+//     alert("“Please refill the fuel in your car");
+// }
+// else{
+//     alert("Go whereever you go");
+
+// }
+
+// quwsrtion no 5
+//   (a)
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// } 
+// output is true
+
+    //   (b)
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+// output is true
+ 
+    //   (c)
+
+// var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+// codition 2 and 4 is true
+
+     //   (d)
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+//Output : The cost equals
+
+    //  (e)
+
+// if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+// //Output: True
+
+   //  (f)
+
+// if("car" < "cat"){
+// alert("car is smaller than cat");
+// }
+//Output : Car is smaller than cat
+
+// question no 6
+
+// var sub1 = +prompt("Enter Marks in sub1");
+// var sub2 = +prompt("Enter Marks in sub2");
+// var sub3 = +prompt("Enter Marks in sub3");
+// var totalMarks = 300
+// var obtMarks = sub1 + sub2 + sub3
+// var percentage = (obtMarks/totalMarks)*100
+
+// document.write("<h1>" + "Marks Sheet" + "</h1>");
+// document.write("Total marks :" + totalMarks + "<br>");
+// document.write("Marks obtained :" + obtMarks + "<br>");
+// document.write("Percentage :" + percentage + "<br>");
+
+// if(percentage >= 80 && percentage <=100){
+// document.write("Grade : A-one" + "<br>");
+// document.write("Remarks : Excellent"); 
+// }
+// else if(percentage >= 70 && percentage <=80 ){
+// document.write("Grade : A" + "<br>");
+// document.write("Remarks : Good"); 
+// }
+// else if(percentage >= 60 && percentage <=70){
+// document.write("Grade : B" + "<br>");
+// document.write("Remarks : You Need To Improve "); 
+// }
+// else if(percentage < 60 ){
+// document.write("Grade : Fail" + "<br>");
+// document.write("Remarks : Sorry "); 
+// }
+// else{
+//     alert("Percentage is not foud");
+// }
+
+// question no 7
+
+// var number = +prompt("Enter any Number From 1-10");
+// if(number === 7){
+//     alert("Bingo");
+// }
+// else if(number === 8 || number === 6){
+//     alert("Close enough to the correct answer");
+// }
+// else{
+//     alert("Try Again");
+// }
+
+// question no 8
+
+// var divisibleNumber = +prompt("Enter Any Number");
+// if(divisibleNumber % 3 === 0){
+//     alert("It is Divisible by 3");
+// }else{
+//     alert("It is not Divisible by 3");
+// }
+
+// question no 9
+
+// var number = +prompt("Enter any Number");
+// if(number%2 === 0){
+//     alert("It is an Even Number");
+// }else{
+//     alert("It is Odd Number");
+// }
+
+// question no 10
+
+// var temperature = +prompt("Enter Your Area Temperature");
+// if(temperature >=40){
+//     alert("It is too hot outside.");
+// }
+// else if(temperature >30 && temperature <40){
+//     alert("The weather Today is Normal.");
+// }
+// else if(temperature >20 && temperature <30){
+//     alert("Today's weather is Cool.");
+// }
+// else if(temperature >10 && temperature <20){
+//     alert("OMG! Today's weather is so Cool.");
+// }else{
+//     alert("Enter Right Temperature");
+// }
+
+// questio no 11
+
+// var num1 = +prompt("Enter num1");
+// var opt = prompt("Enter opt  +,-,*,/");
+// var num2 = +prompt("Enter num2");
+// var result;
+
+// if (opt === "+") {
+//     result = num1 + num2;
+//     document.write(result);
+// }
+// if (opt === "-") {
+//     result = num1 - num2;
+//     document.write(result);
+// }
+// if (opt === "*") {
+//     result = num1 * num2;
+//     document.write(result);
+// }
+// if (opt === "/") {
+//     result = num1 / num2;
+//     document.write(result);
+// }
+
+
