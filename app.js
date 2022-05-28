@@ -756,3 +756,44 @@
 // document.write("score of" + " " + stdName[1] + " " + "is" + " " + stdScore[1] + " " + "and the Percentage is" + " " + percentage2 + "<br>")
 // document.write("score of" + " " + stdName[2] + " " + "is" + " " + stdScore[2] + " " + "and the Percentage is" + " " + percentage3 + "<br>")
 
+// question no 9
+                
+// var colorNames = ["red","green","blue","yellow",]
+//      document.write(colorNames + "<br>")
+                //   (a) 
+// var beginingColor = prompt("Enter a Color Name You want to Add in the Begining")
+// colorNames.unshift(beginingColor)
+//      document.write(colorNames + "<br>" )
+               //    (b)
+// var endColor = prompt("Enter a Color Name You want to Add in the End")
+// colorNames.push(endColor )
+//      document.write(colorNames + "<br>")
+              //     (c)
+// colorNames.unshift("orange")
+// colorNames.unshift("grey")
+//      document.write(colorNames + "<br>")
+              //     (d)
+// colorNames.shift()
+//      document.write(colorNames + "<br>")
+              //     (e)
+// colorNames.pop()
+//      document.write(colorNames + "<br>")
+              //     (f)
+// var addIndex = +prompt("Which Index You Want to Add A color")
+// var addIndexColor = prompt("Which Color You Want to Add")
+// colorNames.splice(addIndex,0,addIndexColor)
+// document.write(colorNames + "<br>")
+             //     (g)
+// var deleteIndex = +prompt("Which Index You Want to Delete A color")
+// var deleteIndexColor = +prompt("How Many Color You Want to Delete")
+// colorNames.splice(deleteIndex,deleteIndexColor)
+// document.write(colorNames + "<br>")
+
+// question no 10
+
+// var stdScore = [320,230,480,120]
+// document.write("Scores of Students :" + stdScore + "<br>")
+// stdScore.sort()
+// document.write("Ordered Scores of Students :" + stdScore + "<br>")
+
+
