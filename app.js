@@ -696,3 +696,63 @@
 // else{
 //     alert("Enter Right Time");
 // }
+
+
+            // Chapter No 14-16
+            // Chapter No 14-16
+            // Chapter No 14-16
+
+// question no 1
+
+// var stdName = [];
+
+// question no 2
+
+// var stdName = [];
+
+// question no 3
+ 
+// var strArray = ["talha","okasha","moiz","aziz","faizan"]
+// alert(strArray)
+
+// question no 4
+
+// var numArray = [1,2,3,4,5]
+// alert(numArray)
+
+// question no 5
+
+// var boolArray = ["true","false"]
+// alert(boolArray)
+
+// question no 6
+
+// var mixedArray = ["talha","True","7"]
+// alert(mixedArray)
+
+// question no 7
+
+// var qualArray = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"]
+// document.write("<h1>"+"QUALIFACTIONS"+"</h1>");
+// document.write("1)" + qualArray[0] + "<br>");
+// document.write("2)" + qualArray[1] + "<br>");
+// document.write("3)" + qualArray[2] + "<br>");
+// document.write("4)" + qualArray[3] + "<br>");
+// document.write("5)" + qualArray[4] + "<br>");
+// document.write("6)" + qualArray[5] + "<br>");
+// document.write("7)" + qualArray[6] + "<br>");
+// document.write("8)" + qualArray[7] + "<br>");
+
+// question no 8
+
+// var stdName = ["Michael","John","Tony"]
+// var stdScore = [320,230,480]
+// var totalScore = 500
+// var percentage1 = stdScore[0]*totalScore/100
+// var percentage2 = stdScore[1]*totalScore/100
+// var percentage3 = stdScore[2]*totalScore/100
+
+// document.write("score of" + " "  + stdName[0] + " " + "is" + " " + stdScore[0] + " " + "and the Percentage is"+ " " + percentage1 + "<br>")
+// document.write("score of" + " " + stdName[1] + " " + "is" + " " + stdScore[1] + " " + "and the Percentage is" + " " + percentage2 + "<br>")
+// document.write("score of" + " " + stdName[2] + " " + "is" + " " + stdScore[2] + " " + "and the Percentage is" + " " + percentage3 + "<br>")
+
