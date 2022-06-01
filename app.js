@@ -797,3 +797,74 @@
 // document.write("Ordered Scores of Students :" + stdScore + "<br>")
 
 
+// question no 11
+
+// var cities = ["karachi","lahore","islamabad","Queetta","peshawar"]
+// var a=cities.slice(1,4)
+// console.log(a)
+
+// question no 12
+
+// var arr = ["This","is","my","cat"];
+// console.log(arr.join(" "))
+
+// question no 13
+
+// var devices = ["keyboard","mouse","printer","monitor"]
+// console.log(devices)
+
+// question no 14
+
+// var devices = ["keyboard","mouse","printer","monitor"]
+// console.log(devices.reverse())
+
+// question no 15
+
+// var companies = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
+
+// document.write("<select>")
+//     document.write("<option>",companies[0], "</option>" )
+//     document.write("<option>",companies[1], "</option>" )
+//     document.write("<option>",companies[2], "</option>" )
+//     document.write("<option>",companies[3], "</option>" )
+//     document.write("<option>",companies[4], "</option>" )
+//     document.write("<option>",companies[5], "</option>" )
+
+
+document.write("</select>")
+
+
+
+// var a=prompt("Enter word")
+// var b=a.split("");
+//  var c=b.reverse();
+//  var d=c.join("")
+//  console.log(d);
+// if(a===d){
+//     alert("palindrome")
+// }
+// else{
+//     alert("Not palindrome")
+// }
+
+
+// var a=prompt("Enter word")
+// var d=a.split("").reverse().join("");
+// if(a===d){
+//     alert("palindrome")
+// }
+// else{
+//     alert("Not palindrome")
+// }
+
+// var a=prompt("Enter word")
+// var b=a.split("");
+//  var c=b.reverse();
+//  var d=c.join("")
+//  console.log(d);
+// if(a===d){
+//     alert("palindrome")
+// }
+// else{
+//     alert("Not palindrome")
+// }
