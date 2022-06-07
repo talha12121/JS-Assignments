@@ -878,12 +878,70 @@
 // question no 5
 
 // var fruits = ["apple","banana","mango","orange","strawberry"]
-// for(var k=0 ;k<fruits.length;k++){
-//     document.write(k + "<br>")
+// for(var i=0 ;i<fruits.length;i++){
+//     document.write(fruits[i] + "<br>")
+// }
+// for(var j=0;j<fruits.length;j++){
+//     document.write("Element at index" + " " +j+ " " + "is" + " "+fruits[j] + "<br>");
 // }
 
-// document.write("Element at index 0 is "+ fruits[0] + " " + "<br>")
-// document.write("Element at index 1 is "+ fruits[1] + " " + "<br>")
-// document.write("Element at index 2 is "+ fruits[2] + " " + "<br>")
-// document.write("Element at index 3 is "+ fruits[3] + " " + "<br>")
-// document.write("Element at index 4 is "+ fruits[4] + " " + "<br>")
+// question no 6
+//  document.write("<h1>"+"COUNTING:"+"</h1>")
+//  for(var i=1;i<16;i++){
+//      document.write(i+",")
+//     }
+// document.write("<h1>"+"REVERSE COUNTING:"+"</h1>")
+// for(var j=10;j>=1;j--){
+//     document.write(j+",")
+
+// }
+// document.write("<h1>"+"EVEN:"+"</h1>")
+// for(var k=0;k<=20;k=k+2){
+//       document.write(k+",")
+// }
+// document.write("<h1>"+"ODD:"+"</h1>")
+// for(var l=1;l<=20;l=l+2){
+//       document.write(l+",")
+// }
+// document.write("<h1>"+"SERIES:"+"</h1>")
+// for(var m=2;m<=20;m=m+2){
+//       document.write(m+"k,")
+// }
+
+// question no 7
+
+//  question no 8
+
+// var arr = [24,53,78,91,12]
+// var max=0
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]>max){
+//         max= arr[i]
+//     }
+// }
+// document.write("Array Items"+" "+arr +"<br>")
+// document.write("The Largest Number is"+" "+max )
+
+// question no 9
+
+// var arr = [24,53,78,91,12]
+// var min=arr[4];
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]<min){
+//         min=arr[i]
+//     }
+// }
+// document.write("Array Items"+" "+arr +"<br>")
+// document.write("The Smallest Number is"+" "+min )
+
+                    //  OR
+// var array2 = [22,33,32,44,21,40]
+// document.write("<h1>Array items :" + array2 + "</h1>")
+// var arrayArrange2 = array2.sort();
+// var separate2 = arrayArrange2.slice(0,1)
+// document.write("<h1>The smallest Number is " + separate2 + "</h1>") 
+
+// question no 10
+// for(var i=1;i<=20;i++){
+//     document.write(i*5 + ",")
+// }
