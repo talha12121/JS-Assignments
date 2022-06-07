@@ -831,40 +831,59 @@
 //     document.write("<option>",companies[5], "</option>" )
 
 
-document.write("</select>")
+// document.write("</select>")
+
+ 
 
 
-
-// var a=prompt("Enter word")
-// var b=a.split("");
-//  var c=b.reverse();
-//  var d=c.join("")
-//  console.log(d);
-// if(a===d){
-//     alert("palindrome")
-// }
-// else{
-//     alert("Not palindrome")
-// }
+        //    CHAPTER NO 17-20
+        //    CHAPTER NO 17-20
+        //    CHAPTER NO 17-20
 
 
-// var a=prompt("Enter word")
-// var d=a.split("").reverse().join("");
-// if(a===d){
-//     alert("palindrome")
-// }
-// else{
-//     alert("Not palindrome")
+// question no 1
+
+// var multiArray = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// console.log(multiArray[0])
+// console.log(multiArray[1])
+// console.log(multiArray[2])
+
+
+// // questioon no 2
+
+
+// var multiArray = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// for(var i =0;i<multiArray.length;i++){
+//     for(j =0;j<multiArray[i].length;j++){
+//         document.write(multiArray[i][j])
+//     }
+    
+//     document.write("<br />")
 // }
 
-// var a=prompt("Enter word")
-// var b=a.split("");
-//  var c=b.reverse();
-//  var d=c.join("")
-//  console.log(d);
-// if(a===d){
-//     alert("palindrome")
+// question no 3
+
+// for(var i=1;i<11;i++){
+//     document.write(i + "<br>")
 // }
-// else{
-//     alert("Not palindrome")
+
+// question no 4
+
+// var num = +prompt("Enter number for table")
+// var length = +prompt("Enter number for Length")
+// for(var i=1 ; i<=length;i++){
+//     document.write(num + "x" + i + "=" + i*num + "<br>")
 // }
+
+// question no 5
+
+// var fruits = ["apple","banana","mango","orange","strawberry"]
+// for(var k=0 ;k<fruits.length;k++){
+//     document.write(k + "<br>")
+// }
+
+// document.write("Element at index 0 is "+ fruits[0] + " " + "<br>")
+// document.write("Element at index 1 is "+ fruits[1] + " " + "<br>")
+// document.write("Element at index 2 is "+ fruits[2] + " " + "<br>")
+// document.write("Element at index 3 is "+ fruits[3] + " " + "<br>")
+// document.write("Element at index 4 is "+ fruits[4] + " " + "<br>")
