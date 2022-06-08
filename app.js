@@ -633,15 +633,7 @@
 // }else{
 //     alert("It is False")
 // }
-//            OR
-// var vowels ="a,e,i,o,u"
-//  var char = prompt("Enter a Character");
-//  if(char = vowels){
-//      alert("It is True")
-//  }else{
-//      alert("It is False")
-//  }
-
+          
 // question no 5
 
 // var password = "talha"
@@ -910,6 +902,20 @@
 
 // question no 7
 
+// var arr=["cake","apple pie","cookie","chips","patties"]
+// var input=prompt("Enter Item")
+// var flag="yes"
+// for(var i=0;i<arr.length;i++){
+//     if(input===arr[i]){
+//         alert("Element found")
+//         var flag="no";
+
+//     }
+   
+// }
+// if(flag==="yes"){
+//     alert("Not Found")
+// }
 //  question no 8
 
 // var arr = [24,53,78,91,12]
