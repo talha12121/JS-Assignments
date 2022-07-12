@@ -951,3 +951,175 @@
 // for(var i=1;i<=20;i++){
 //     document.write(i*5 + ",")
 // }
+ 
+       // CHAPTER NO 21-25
+       // CHAPTER NO 21-25
+       // CHAPTER NO 21-25
+
+// question no 1
+
+// var firstName = prompt("Enter First Name ")
+// var lastName = prompt("Enter Last Name ")
+// var fullName = firstName + " " +  lastName
+// alert(fullName)
+
+// question no 2
+
+// var userInput = prompt("Enter Your Mobile Phone MOdel")
+// var length = userInput.length;
+// document.write("My Favourite Phone is" + " " + userInput + "<br>")
+// document.write("Length of String is" + " " + length)
+
+
+// question no 3
+
+// var country = "Pakistan"
+// var find = country.indexOf("n")
+// document.write("String:" + country + "<br>")
+// document.write("Index of n is"+" "+ find)
+
+// question no 4
+
+// var name = "Hello World"
+// var lastIndex = name.lastIndexOf("l")
+// document.write("String" + " " + name +"<br>")
+// document.write("last Index of 'l':" + " " + lastIndex )
+
+// question no 5
+
+// var country = "Pakistani"
+// var char = country.charAt(3)
+// document.write("String" + " " + country +"<br>")
+// document.write("Character at Index 3:"+ " "+ char)
+
+// question no 6
+
+// var firstName = "Talha"
+// var lastName = "Rahim"
+// var concat = firstName +" " + lastName
+// document.write("Hello"+" "+concat)
+
+// question no 7
+
+// var city = "Hyderabad"
+// var replacement = city.replace("Hyder","Islam")
+// // document.write("City :" + " " + city + "<br />")
+// document.write("After replacement :" + " " + replacement)
+
+                //   OR
+                
+  // var city = "Hyderabad";
+// var replacement =""
+// for(var i=0 ; i < city.length; i++){
+//         if(city.slice(i,i+5) === "Hyder"){
+//                 replacement = "Islam" + city.slice(i+5)
+//         }
+// }
+// document.write("City :" + " " + city + "<br />")
+// document.write("After replacement :" + " " + replacement)
+
+// question no 8
+
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var replace = message.replace(/and/g,"&")
+// alert(replace)
+
+// question no 9
+
+// var string = "472"
+// document.write("Value:" + " " + string + "<br>")
+// document.write("Type:" + " " + typeof string + "<br>")
+// var num = parseInt("472")
+// document.write("Value:" + " " + num + "<br>" )
+// document.write("Type:" + " " + typeof num)
+
+// question no 10
+
+// var userInput = prompt("Enter any Words")
+// document.write("user input:"+" "+ userInput + "<br>")
+// document.write("Upper case:"+" "+ userInput.toUpperCase())
+
+// question no 11
+
+// var userInput = prompt("Enter Words")
+// var firstCapital = userInput.slice(0,1)
+// var secondJoin = userInput.slice(1)
+// firstCapital = firstCapital.toUpperCase()
+// var titleCase =  firstCapital + secondJoin
+
+// document.write("User Input:" + " " + userInput + "<br>")
+// document.write("Title Case:" + " " + titleCase)
+
+// question no 12
+
+// var num = 35.36
+// var str = num.toString()
+// var remove1 = str.slice(0,2)
+// var remove2 = str.slice(3)
+// var join = remove1 + remove2
+// alert(join)
+
+// question no 13
+
+// var userName = prompt("Enter your name")
+// for(var i = 0; i < userName.length; i++){
+//         if(userName === "!" || userName === "," || userName === "." || userName === "@" ){
+//             alert("Enter valid Username")
+//         }else{
+//             alert(userName)
+//         }
+//         break
+//     }
+
+// question no 14
+
+// var bakery = ["cake","biscuit","pastry","chips","chocolate","egg","roll","smosa"]
+// var userSearch = prompt("Enter your choice")
+//         if(bakery.indexOf(userSearch) !== -1){
+//                 document.write(userSearch + " " + "is available in our bakery at index" + " " + bakery.indexOf(userSearch))
+//         }
+//         else{
+//                 document.write("We are Sorry ." + " " + userSearch + " is not available in our bakery")
+//         }
+
+// question no 15
+
+// var password = prompt("Enter your password")
+//  for(var i = 0; i < password.length; i++){
+//        document.write("Entered Password :" + " " + password +"<br />");
+//        document.write("Password can not begin with a number" +"<br />")
+//        document.write("Password must contain at least 6 characters" +"<br />")
+//       document.write("Please enter a valid password")
+      
+//  }
+
+// question no 16
+
+// var university = "University of Karachi"
+// var arr = university.split("")
+// for(var i=0;i<arr.length;i++)(
+//     document.write(arr[i] +"<br>")
+// )
+
+// question no 17
+
+// var userInput = prompt("Enter words")
+// var lastChar = userInput.slice(-1)
+// document.write("User Input:"+" "+userInput + "<br>")
+// document.write("Last Character of input:"+" "+lastChar)
+
+// question no 18
+
+//  var para = "the quick brown fox jumps over the lazy dog"
+//  var num = 0
+//  for(var i = 0; i < para.length; i++){
+//          if(para.slice(i,i+3) === "the"){
+//              num= num + 1
+//         }
+// }
+//  document.write("TEXT :" + " " + para +"<br />");
+//  document.write("There are " + num + " occurabce(s) of the word 'the'")
+
+
+
+
