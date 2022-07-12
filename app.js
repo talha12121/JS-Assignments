@@ -1122,4 +1122,68 @@
 
 
 
+                    // CHAPTER NO 25-30
+                    // CHAPTER NO 25-30
+                    // CHAPTER NO 25-30
 
+// question no 1
+
+// var userInput = +prompt("Enter Positive Number")
+// document.write("Number"+" "+userInput + "<br>")
+// document.write("Round Off Value :"+" "+Math.round(userInput) + "<br>")
+// document.write("Floor Value :"+" "+Math.floor(userInput) + "<br>")
+// document.write("Ceil Value :"+" "+Math.ceil(userInput) + "<br>")
+
+// question no 2
+
+// var userInput = +prompt("Enter Negative Number")
+//  document.write("Number"+" "+userInput + "<br>")
+//  document.write("Round Off Value :"+" "+Math.round(userInput) + "<br>")
+//  document.write("Floor Value :"+" "+Math.floor(userInput) + "<br>")
+//  document.write("Ceil Value :"+" "+Math.ceil(userInput) + "<br>")
+
+// question no 3
+
+// var num = +prompt("Enter negative number");
+// if(num<0){
+//     document.write("The absolute value of " + " " + num + " " + "is" + " "+ (num+-num*2))
+// }
+
+// question no 4
+
+// var mathRandom = Math.random()*6;
+// var round = Math.round(mathRandom);
+// document.write("Random Dice Value :" + " " + round)
+
+// question no 5
+
+// var coin = Math.random()*2
+// var round = Math.round(coin)
+// if(round === 2){
+//     document.write("Head")
+// }else{
+//     document.write("Tail")
+// }
+
+// question no 6
+
+// var num = Math.random()*100
+// var round = Math.round(num)
+// document.write("Random number Between 1 & 100 is" + " "+ round)
+
+// question no 7
+
+// var userInput =parseInt(prompt(("Enter your weight")))
+// document.write("The weight of User is"+" "+userInput+" "+"Kilogram")
+
+
+// question no 8
+
+// var secretNum = Math.random()*10
+// var round = Math.round(secretNum)
+// var userInput = +prompt("Enter a Number between 1 to 10")
+// if(round === userInput){
+//     alert("congratulation")
+// }else{
+//     alert("Try Again")
+// }
