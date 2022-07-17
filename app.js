@@ -1187,3 +1187,138 @@
 // }else{
 //     alert("Try Again")
 // }
+
+            //   CHAPTER NO 31-34
+            //   CHAPTER NO 31-34
+            //   CHAPTER NO 31-34
+
+// question no 1
+
+// var date = new Date()
+// console.log(date)
+
+// question no 2
+
+// var date = new Date()
+// var months = ["Jan","Feb","March","April","May","June","July","Aug","Sep","Oct","Nov","Dec"]
+// var getMonth = date.getMonth()
+// console.log(months[getMonth])
+
+// question no 3
+
+// var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+// var date = new Date()
+// var todayDay = date.getDay()
+// console.log("Today is " + days[todayDay])
+//               OR
+// var currentDay = new Date();
+// var b = currentDay.toString();
+// var c = b.slice(0,3);
+// document.write("Today is " + c);
+
+// question no 4
+
+// var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+// var date = new Date()
+// var todayDay = date.getDay()
+// var currentDay = (days[todayDay])
+// console.log(currentDay)
+// if(currentDay ==="Sunday"){
+//     console.log("It's Fun Day")
+// }else{
+//     console.log("It's Working Day")
+// }
+
+// question no 5
+
+// var date = new Date()
+// console.log(date.getDate())
+// if(date <= 15){
+//     console.log("First fifteen days of the month")
+// }else if(date >= 16){
+//     console.log("Last days of the month")
+// }
+
+// question no 6
+
+// var date = new Date()
+// var miliSec = date.getTime()
+// var minutes = miliSec/1000*60
+// document.write("Current Date:"+" "+date+ "<br>")
+// document.write("Elapsed Millisecond Since Jan 1 1970:"+" "+miliSec+"<br>")
+// document.write("Elapsed Minutes Since Jan 1 1970:"+" "+minutes+"<br>")
+
+// question no 7
+
+// var date = new Date()
+// var time = date.getHours()
+// console.log(time)
+// if(time < 12){
+//    console.log("AM")
+// }else{
+//     console.log("PM")
+// }
+
+// question no 8
+
+// var date = new Date("Dec 31 2020")
+// console.log("Later Date:"+" "+date)
+
+// question no 9
+
+// var todayDate = new Date()
+// var ramadanDate = new Date("April 3 2022")
+// var diff = todayDate - ramadanDate 
+// var total = Math.ceil(diff/(1000*60*60*24))
+// document.write(total +" "+"Days have  passed since 1st Ramadan 2022")
+
+// question no 10
+
+// var newDate = new Date().getSeconds()
+// var startDate = new Date("jan 1 2022")
+// var diff = startDate - newDate 
+// var total = Math.ceil(diff/(1000*60*60*24))
+// document.write(total +" "+"Sec had  passed since 1st jan 2022")
+
+// question no 11
+
+// var date = new Date()
+// var newDate = new Date()
+// newDate.setHours(newDate.getHours()-1)
+// document.write("Current Date:"+" "+date+"<br>")
+// document.write("1 Hour Ago it was"+" "+newDate)
+
+// question no 12
+
+// var date = new Date()
+// alert("current date:"+" "+date)
+// var back = new Date()
+// back.setFullYear(back.getFullYear()-100)
+// alert("100 years back , it was " + " " + back)
+
+// question no 13
+
+// var userInput = +prompt("Enter Your Age")
+// var currentYear = new Date().getFullYear()
+// var ageYear = currentYear - userInput
+// alert("Your Birth Year is" +" "+ ageYear)
+
+// question no 14
+
+// var userInput = prompt("Enter Your Name")
+// var months = ["Jan","Feb","March","April","May","June","July","Aug","Sep","Oct","Nov","Dec"]
+// var getMonth = new Date().getMonth()
+// var unit = +prompt("Enter Units")
+// var charge = +prompt("Enter Charges Per Unit")
+// var netAmount = unit*charge
+// var latePayment = 350
+// var grossAmount = netAmount + latePayment
+// document.write("<h1>"+"K-ELECTRIC BILL"+"</h1>")
+// document.write("Customer Name:"+" "+userInput+"<br>")
+// document.write("Month:"+" "+months[getMonth] +"<br>")
+// document.write("Number of Units:"+" "+unit +"<br>")
+// document.write("Charges Per Unit:"+" "+charge +"<br>")
+// document.write("<br>")
+// document.write("Net Amounts Payable(within due date):"+" "+netAmount +"<br>")
+// document.write("Late Payment Surcharge:"+" "+latePayment +"<br>")
+// document.write("Gross Amount PAyable(after Due Date):"+" "+grossAmount)
