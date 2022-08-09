@@ -1528,3 +1528,88 @@
 // }
 // console.log(calcCircumference(12))
 // console.log(calcArea(2))
+
+
+            // CHAPTER NO 39-42
+            // CHAPTER NO 39-42
+            // CHAPTER NO 39-42
+
+// question no 1
+
+// function power(a,b){
+//   var c = 1
+//   for(var i=1;i<=b;i++){
+//    c = c*a
+//   }
+//   console.log(c)
+// }
+// var inp1 = prompt("Enter First value");
+// var inp2 = prompt("Enter Second value");
+// power(inp1,inp2)
+
+// question no 2
+
+// function leapYear(){
+//     var input = +prompt("Enter any Year")
+//     var res = input%4
+//     if(res==0){
+//         alert("This is Leap Year")
+//     }else{
+//         alert("This is Not A Leap Year")
+
+//     }
+
+// }
+// leapYear()
+
+// question no 3
+
+// var a = +prompt("Enter First Value")
+// var b = +prompt("Enter Second Value")
+// var c = +prompt("Enter Third Value")
+// function area(){
+//     var s = (a + b + c)/2
+//     var value = s*(s-a)*(s-b)*(s-c)
+//     return value
+// }
+// console.log(area())
+
+// question no 4
+
+// function mainFunction(){
+//     var math = +prompt("Enter Math Marks")
+//     var eng = +prompt("Enter English Marks")
+//     var urdu = +prompt("Enter Urdu Marks")
+
+// function avgFunction(){
+//     var avg = (math+eng+urdu)/3;
+//     return avg
+// }
+// function perFunction(){
+//     var per = ((math+eng+urdu)/300)*100
+//     return per
+// }  
+// console.log("Avg="+ avgFunction());
+//    console.log("Percentage="+perFunction());
+// } 
+// mainFunction()
+
+// question no 5
+
+// function indexof(){
+//     var a=prompt("Enter any String");
+//     var char=prompt("Enter Char");
+//     for(var i=0;i<a.length;i++){
+//       if(a[i]===char){
+//         alert(char +" "+"is at index"+ i)
+//         break;
+//       }
+     
+//       }
+//     }
+//   indexof();
+
+
+
+
+
